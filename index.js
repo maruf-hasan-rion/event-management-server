@@ -78,11 +78,6 @@ async function run() {
 }
 run().catch(console.dir);
 
-
-
-
-// app.listen(port, () => console.log('API is running on localhost:8080/login '))
-
 app.get("/", (req, res) => {
     res.send("Hello from Event Management server....");
   });
